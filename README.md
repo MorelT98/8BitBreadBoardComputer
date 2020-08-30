@@ -8,11 +8,11 @@ Starting from transistors, resistors, ICs, and other basic electronic components
 
 There are two parts of this computer that needed to be programmed: The display module and the instruction decoder. To program them, I used EEPROMs (Electrically Erasable Programmable Read Only Memory), which I programmed with an Arduino Uno.
 
-For the display module, the EEPROM are programmed to take in a number in binary and return the corresponding decimal number on a seven segment display.
-For example, if the number 00000100 , which is 4 in deciman, is passed in to the EEPROM, the return value will be 00110011, which is equivalent to 7 on the seven segment display, as follows:
+For the display module, the EEPROMs are programmed to take in a number in binary and return the corresponding decimal number on a seven segment display.
+For example, if the number 00000100 , which is 4 in decimal, is passed in to the EEPROM, the return value will be 00110011, which is equivalent to 7 on the seven segment display, as follows:
 
   0   0   1   1   0   0   1   1
   dp  a   b   c   d   e   f   g
   
   ![4 on seven segment display]
-  
+  (https://github.com/MorelT98/8BitBreadBoardComputer/blob/master/seven-segment-4.JPG)
