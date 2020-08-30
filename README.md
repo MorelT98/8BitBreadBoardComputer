@@ -1,4 +1,4 @@
-# 8BitBreadBoardComputer
+# 8 Bit Breadboard Computer
 
 Starting from transistors, resistors, ICs, and other basic electronic components, I build a 8-bit computer on a breadboard! In this case, 8 bits means:
 
